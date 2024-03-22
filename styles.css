@@ -1,0 +1,55 @@
+/* Estilos padrão */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    height: 100px; /* Altura fixa para todos os blocos */
+}
+
+/* Definindo larguras e cores específicas para cada bloco */
+#bloco1 {
+    width: 1280px; /* Largura do bloco 1 */
+    background-color: #FF5733; /* Cor para o bloco 1 */
+}
+
+#bloco2 {
+    width: 768px; /* Largura do bloco 2 */
+    background-color: #33FFA3; /* Cor para o bloco 2 */
+}
+
+#bloco3 {
+    width: 480px; /* Largura do bloco 3 */
+    background-color: #3366FF; /* Cor para o bloco 3 */
+}
+
+#bloco4 {
+    width: 320px; /* Largura do bloco 4 */
+    background-color: #FF33F2; /* Cor para o bloco 4 */
+}
+
+#bloco5,
+#bloco6 {
+    width: 220px; /* Largura dos blocos 5 e 6 */
+}
+
+#bloco5 {
+    background-color: #FFFF33; /* Cor para o bloco 5 */
+}
+
+#bloco6 {
+    background-color: #33FFFF; /* Cor para o bloco 6 */
+}
+
+/* Estilos para a representação gráfica */
+.representacao {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
